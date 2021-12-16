@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2021 The LibreMobileOS Foundation
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,9 +16,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_d1.mk
+    $(LOCAL_DIR)/lmodroid_d1.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_d1-eng \
-    lineage_d1-user \
-    lineage_d1-userdebug
+    lmodroid_d1-eng \
+    lmodroid_d1-user \
+    lmodroid_d1-userdebug
